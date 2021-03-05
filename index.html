@@ -86,7 +86,7 @@
 							</article>
 
 <!-- PHP -->
-<?php
+<php
      $name = $_POST['name'];
      $email = $_POST['email'];
      $subject = $_POST['subject'];
@@ -96,8 +96,8 @@
      $email_subject = 'New Contact Form Submission!';
      
      $body = "Name: $name\nE-mail: $email\nSubject: $subject\n\nThe message is below:\n$message";;
-?>
-<?php
+>
+<php
     if (isset($_POST['submitbtn']))
     {
         if (mail($to, $email_subject, $body, $from))
@@ -109,7 +109,7 @@
         echo "<font color=\"red\"><p>Your message sending has failed! Please manually email (your email)!</p></font>";
         }
     }
-?>
+>
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
