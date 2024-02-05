@@ -66,8 +66,9 @@
 								<p><a href=#page1>Case Study 1</a></p>
 								<p><a href=#page2>Case Study 2</a></p>
 								<p><a href=#page3>Twitter API Ingestion</a></p>
-								<p><a href=#page2>Case Study 2</a></p>
-								<p><a href=#page2>Case Study 2</a></p>
+								<p><a href=#page4>Machine Learning 1</a></p>
+								<p><a href=#page5>NLP Work</a></p>
+								<p><a href=#page6>Child Seating Algorithm</a></p>
 							</article>
 							
             <!-- Page 1 -->
@@ -103,18 +104,27 @@
 							<article id="page4">
 								<h2 class="major">Machine Learning 1</h2>
 								<p><a href="https://nedeinlein.github.io/#work">Back</a></p>
-								<p> This was the final assignment for our database managementclass. I worked with a group of two other students to conduct research into the ingestion of data from an API as well as its final state in a SQL versus noSQL database. My section was to go through parsing out the data retrieved through the API into set columns within an SQL database. Though we could define tags within the data coming across, it's unstructured nature was not entirely conducive to an SQL environment. Instead, due to rate of ingestion, and then usability of the data after ingestion, we suggested the use of a noSQL database, in this case MongoDB, for our purposes, should be tasked with a similar project in the future. Since completing this project, I have been working much more in Azure Datalakes and Databricks in particular with ingestion of files at a rapid pase that can then be parsed later to flatten them if needed. </p>
-								<p><object data="Case-Study-1.html" type="text/html" width = 100% height = 700px ;></object></p>
+								<p> Machine Learning was a fascination I had going into my masters. For our first class on it, we were split into groups and were given a dataset to try various algorithms on to test our understanding. Our data happened to be on horse racing. We set out with two main goals, the first to be able to predict a winner of any given race, and then the second goal was to predict the top 3, or placers, for any given race. I have below here our final notebook for the project that utilized a number of concepts that we were learning at the time. These included PCA and clustering alogrithms. These unsupervised learning techniques were used to reduce the number of features we were working with to try to make the model more generalized instead of overfitting it to the data we had. You will also note that in a number of the times we run our random forest, it is running a series of different parameters. I wasn't aware of grid search and random search at the time, and this was my attempt to do something similar with the knowledge that I had at the time.</p>
+								<p><object data="Lab 3 Group Book.html" type="text/html" width = 100% height = 700px ;></object></p>
 									<p><a href="https://github.com/nedeinlein/Machine_Learning_I">Machine Learning 1 Projects</a></p>
 								</article>
+
+						<!-- Page 5 -->
+							<article id="page5">
+								<h2 class="major">NLP Work</h2>
+								<p><a href="https://nedeinlein.github.io/#work">Back</a></p>
+								<p> One of the last classes that I took before graduation was on NLP. In this class we took permalinks from IMDB and then would use them as cases to parse text using a number of different python packages. Once we had these different blobs of text information, we could work on parsing them, tokenization, removing stopwords, vectorization, and finally sentiment analysis. My github provides and overall look at this progression from simple document similarity all the way through our final assignment that involved comment sentiment analysis that can be seen in the final homework assignment.</p>
+								<p><object data="Nathan_Deinlein_Homework 8.html" type="text/html" width = 100% height = 700px ;></object></p>
+									<p><a href="https://github.com/nedeinlein/NLP">NLP Work</a></p>
+								</article>
 								
-						https://github.com/nedeinlein/Machine_Learning_I/blob/main/Project3/Lab%203%20Group%20Book.ipynb
-						<!-- Page x -->
-							<article id="pagex">
+						
+						<!-- Page 6 -->
+							<article id="page6">
 								<h2 class="major">Child Seating Algorithm</h2>
 								<p><a href="https://nedeinlein.github.io/#work">Back</a></p>
-								<p> This was the final assignment for our database managementclass. I worked with a group of two other students to conduct research into the ingestion of data from an API as well as its final state in a SQL versus noSQL database. My section was to go through parsing out the data retrieved through the API into set columns within an SQL database. Though we could define tags within the data coming across, it's unstructured nature was not entirely conducive to an SQL environment. Instead, due to rate of ingestion, and then usability of the data after ingestion, we suggested the use of a noSQL database, in this case MongoDB, for our purposes, should be tasked with a similar project in the future. Since completing this project, I have been working much more in Azure Datalakes and Databricks in particular with ingestion of files at a rapid pase that can then be parsed later to flatten them if needed. </p>
-									<p><a href="https://github.com/nedeinlein/DBMFinal_Paper">Twitter API Ingestion</a></p>
+								<p> In around August of 2022, the DOT formally announced that it would be requesting that airlines within the United States make a conscious effort to make sure that children were always sitting with an adult from their booking next to them on flights. While this sounds like common sense to most of us, traditionally this had not been the case for airlines. The majority of the airline industry uses one of only a few web-based products to handle all of their reservations and bookings and none of these innately had logic to seat passengers like this. Instead, most used some sort of randomized pattern based on how many people had checked in for their flight and the expected weight necessary to balance the plane for takeoff. Conversely, a family could choose seats, but for some carriers, this involved an extra cost. To meet with the DOT recommendation, I was asked to build an algorithm that would take children who had not had a seat purchased for them, and play Tetris with the bookings and open seats of the plane to both ensure that passengers under the age of 13 were sat with an adult from their booking, and that the plane was loaded in a way that risk of a tail tip was minimized. The code in my github is a generalized version of this algorithm that I am making available. I had asked if we as a company wanted to patent it, since only American and United had made the commitment to the DOT to seat children accordingly and both used a manual process to achieve this, however, no one seemed to be terribly concerned with the whole idea. So here I am making this open source in the hope that more airlines will use this to better the experience of their customers.   </p>
+									<p><a href="https://github.com/nedeinlein/Childseating_algorithm">Child Seating Algorithm</a></p>
 								</article>
 
 						<!-- Videos -->
